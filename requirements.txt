@@ -1,0 +1,27 @@
+# ── Core data manipulation ──────────────────────────────────────────────────
+pandas>=2.0,<3.0
+numpy>=1.26,<2.0
+
+# ── Machine learning ────────────────────────────────────────────────────────
+scikit-learn>=1.4,<2.0
+
+# ── Gradient-boosted trees / LambdaMART ─────────────────────────────────────
+lightgbm>=4.3,<5.0
+
+# ── BM25 baseline retrieval ──────────────────────────────────────────────────
+rank-bm25>=0.2.2
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest>=8.0,<9.0
+
+# ── Streamlit app ────────────────────────────────────────────────────────────
+streamlit>=1.35,<2.0
+
+# ── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+
+# ── YAML parsing (config.yaml) ───────────────────────────────────────────────
+# PyYAML is a transitive dependency of many packages above but is listed
+# explicitly here because config.yaml is loaded directly in production code.
+PyYAML>=6.0,<7.0

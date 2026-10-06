@@ -1,0 +1,59 @@
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python bytecode & caches ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Model artefacts ───────────────────────────────────────────────────────────
+models/*.pkl
+models/*.bin
+models/*.txt
+models/*.json
+models/*.cbm
+
+# ── Generated results & plots ─────────────────────────────────────────────────
+results/*.csv
+results/*.json
+results/*.png
+results/*.pdf
+results/*.html
+
+# ── Raw datasets (potentially large / proprietary) ────────────────────────────
+data/raw/
+
+# ── Distribution / packaging ─────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ── IDE files ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Miscellaneous ─────────────────────────────────────────────────────────────
+*.log
+*.tmp
